@@ -12,8 +12,12 @@ public class studentinfo {
 		System.out.print("학생 학번 ? : ");
 		String hacbun = sc.nextLine();
 		
+		System.out.print("주소 ? : ");
+		String address = sc.nextLine();
+		
 		System.out.println("날짜 : " + today);
 		System.out.println("이름 : " + name);
 		System.out.println("학번 : " + hacbun);
+		System.out.println("주소 : " + address);
 	}
 }
